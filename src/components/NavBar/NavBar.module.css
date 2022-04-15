@@ -1,0 +1,38 @@
+.main-container {
+    /* position: fixed; */
+    height: 7vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo-container {
+    width: 40%;
+    padding: 5vw;
+}
+
+.items-container {
+    width: 60%;
+    display: flex;
+    gap: 3vw;
+}
+
+.item {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.item1 {
+    font-weight: 500;
+    color: #FF8C00;
+}
+
+.line {
+    margin-left: 5vw;
+    position: relative;
+    top: 2vh;
+    height: 4px;
+    width: 20px;
+    background-color: orange;
+}

@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
-function App() {
+import Home from "../src/pages/Home/Home";
+import Items from "../src/pages/Items/Items";
+import UserStorage from "./utils/userToken";
+
+const App = () => {
+  const { isToken } = UserStorage();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Router>
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={isToken ? <Navigate replace to="/items" /> : <Home />}
+            />
+
+            <Route
+              exact
+              path="/items"
+              element={isToken ? <Items /> : <Navigate replace to="/" />}
+            />
+          </Routes>
+        </Router>
+      </div>
+    </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,176 @@
+.container {
+    height: 91vh;
+    display: flex;
+    background-color: white;
+}
+
+.itemList {
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9d9d9;
+}
+
+.itemList h4 {
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0;
+    padding: 1em 1.5em;
+    background-color: white;
+}
+
+.itemsListContainer {
+    width: 96.75%;
+    padding: 1em 1em;
+    justify-content: center;
+}
+
+.searchContainer {
+    display: flex;
+}
+
+
+.searchContainer img {
+    background-color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    color: #3d3d3d;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* label */
+
+.label {
+    color: gray;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* input */
+.input {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}
+
+.inputDate {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 7px;
+    width: 100%;
+}
+
+.tableItems {
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    margin-top: 1em;
+    border-collapse: collapse;
+}
+
+.tableItems tr {
+    height: 1em;
+
+}
+
+.tableItems th {
+    background-color: #ececec;
+    border-bottom: 1px solid #d9d9d9;
+    height: 3em;
+    font-size: small;
+    font-weight: 500;
+}
+
+.tableItems td {
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: white;
+}
+
+.tableItems td,
+th {
+    padding: 8px;
+}
+
+.itemCreate {
+    border: 1px solid #d9d9d9;
+}
+
+.itemCreate h4 {
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0;
+    padding: 1em 1em;
+}
+
+.itemCreate h3 {
+    background-color: #ececec;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+
+.itemNameCode {
+    display: flex;
+    padding: 0.5em 1em;
+}
+
+/* label */
+.itemNameCode label {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.saveItemButton {
+    display: flex;
+    padding: 1em;
+    
+}
+
+.submitInput {
+    cursor: pointer;
+    background-color: #6976d9;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+.noDataIcon {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+/* select */
+
+.select {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+}

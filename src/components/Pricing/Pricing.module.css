@@ -1,0 +1,235 @@
+.stats {
+  display: flex;
+  height: 17vh;
+  gap: 9vw;
+  width: 100%;
+  margin-top: 3vh;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.heading {
+  font-weight: bold;
+  color: #FF8C00;
+  font-size: 2em;
+}
+
+.free-div {
+  display: flex;
+  width: 100%;
+  margin-top: 7vh;
+}
+
+.free-text {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 5vw
+}
+
+.free-logo {
+  width: 15%;
+}
+
+.priceContainer {
+  gap: 55px;
+  padding: 35px;
+  margin-left: 2vw;
+  display: flex;
+  gap: 3vw;
+}
+
+.popular {
+  color: white;
+  height: 4vh;
+  border-radius: 50px;
+  background-color: rgb(237, 81, 63);
+  width: 37%;
+  text-align: center;
+  position: relative;
+  bottom: 11px;
+  left: 200px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text {
+  color:darkslategray;
+}
+
+.container {
+  width: 27vw;
+  height: 60vh;
+  display: flex;
+  position: relative;
+  border: 2px solid rgb(213 211 211);
+  border-radius: 8px;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+
+.container2 {
+  width: 27vw;
+  height: 60vh;
+  display: flex;
+  position: relative;
+
+  border: 2px solid rgb(213 211 211);
+  border-radius: 8px;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: rgb(251 246 237);
+  border: 2px solid rgb(239 215 178);
+}
+
+.iconWrapper {
+  padding: 0 1rem;
+  height: 10%;
+
+}
+
+.iconWrapper svg {
+
+  height: 40px;
+  width: 40px;
+
+}
+
+
+
+.priceTitle {
+  display: flex;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.price {
+  display: flex;
+  text-decoration: line-through;
+  color: grey;
+  font-size: 15px;
+}
+
+.realPrice {
+  display: flex;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(123 138 197);
+}
+
+.realPriceGold {
+  display: flex;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(222 174 98);
+}
+
+.realPriceDiamond {
+  display: flex;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(222 121 58);
+
+}
+
+.mobileDesktopDiv {
+  display: flex;
+  height: 14%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(237 239 247);
+}
+
+.mobileDesktopDiv2 {
+  display: flex;
+  height: 14%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(248 233 211);
+}
+
+.mobileDesktopDiv3 {
+  display: flex;
+  height: 14%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(251 239 232);
+}
+
+.title2 {
+  display: flex;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(102 120 188);
+
+}
+
+.title3 {
+  display: flex;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(222 174 98);
+
+}
+
+.title4 {
+  display: flex;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(222 121 58);
+
+}
+
+.descriptionDiv {
+  display: flex;
+  padding: 0 1rem;
+  height: 45%;
+  flex-direction: column;
+
+}
+
+.descriptionList {
+  height: 5vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+}
+
+.descriptionItems {
+  display: flex;
+  font-size: 16px;
+  text-align: start;
+  color: grey;
+  margin-left: 1rem;
+}

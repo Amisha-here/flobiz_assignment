@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.form h1 {
+  font-size: 20px;
+}
+
+.label {
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 10px;
+  width: 93%;
+}
+
+.phoneInput {
+  border: 1px solid #d9d9d9;
+  width: 93%;
+}
+
+.input-pre {
+  color: #495057;
+  background-color: #e9ecef;
+  border-right: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  padding: 8px;
+}
+
+.submitInput {
+  
+  background-color: #6976d9;
+  color: white;
+  font-size: 14px;
+  margin: 25px 0px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}

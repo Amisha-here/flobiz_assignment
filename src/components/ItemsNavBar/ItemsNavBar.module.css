@@ -1,0 +1,22 @@
+.menuItem {
+    padding: 0.5em 0.75em;
+    margin-right: 0.25em;
+    font-weight: 600;
+    font-size: 1em;
+    transition: color 0.06s linear;
+    user-select: none;
+}
+
+.menuItems1 {
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    color: black;   
+}
+
+.logout {
+    color: black;
+    cursor: pointer;
+}
