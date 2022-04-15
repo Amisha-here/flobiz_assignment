@@ -40,7 +40,7 @@ export default function Items() {
 
     setFormData({});
     setSelectedItem({});
-    window.location.reload();
+    window.location.reload(false);
   };
 
   const handleChange = (e) => {
