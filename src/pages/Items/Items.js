@@ -22,22 +22,22 @@ export default function Items() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e);
-
-    console.log(selectedItem?.length);
-
-    if (selectedItem.length === 0 || selectedItem.constructor === Object) {
+    if (
+      !(
+        Object.keys(selectedItem).length === 0 &&
+        selectedItem.constructor === Object
+      )
+    ) {
+      const newItems = itemsList.filter((item) => selectedItem !== item);
+      storeItems([...newItems, formData]);
+    } else {
       if (itemsList) {
         const newItems = [...itemsList, formData];
         storeItems(newItems);
       } else {
         storeItems([formData]);
       }
-    } else {
-      const newItems = itemsList?.filter((item) => selectedItem !== item);
-      storeItems([...newItems, formData]);
     }
-
     setFormData({});
     setSelectedItem({});
     window.location.reload(false);
