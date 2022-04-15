@@ -24,7 +24,9 @@ export default function Items() {
     e.preventDefault();
     console.log(e);
 
-    if (selectedItem.length > 0) {
+    console.log(selectedItem?.length);
+
+    if (selectedItem.length === 0 || selectedItem.constructor === Object) {
       if (itemsList) {
         const newItems = [...itemsList, formData];
         storeItems(newItems);
@@ -32,7 +34,7 @@ export default function Items() {
         storeItems([formData]);
       }
     } else {
-      const newItems = itemsList.filter((item) => selectedItem !== item);
+      const newItems = itemsList?.filter((item) => selectedItem !== item);
       storeItems([...newItems, formData]);
     }
 
