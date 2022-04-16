@@ -67,7 +67,7 @@ const Pricing = () => {
           </div>
           <div className={styles["mobileDesktopDiv"]}>
             <DesktopIcon />
-            <p className={styles["Title2"]}>Mobile + Desktop</p>
+            <p className={styles["title2"]}>Mobile + Desktop</p>
           </div>
 
           <div className={styles["descriptionDiv"]}>
